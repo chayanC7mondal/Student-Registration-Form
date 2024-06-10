@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+body{
+    background-color: #1c0e19;
+}
 .container{
     padding:10px;
     max-width: 500px;
     margin: 90px auto;
-    border: 3px black solid;
-    background-image: linear-gradient(to top,  #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    border: 3px rgba(203, 202, 202, 0.915) solid;
+    border-style: ridge;
+    background-image: linear-gradient(to top,  #b8235a 29%, #801357 51%, #3d1635 74%, #1c1a27 100%);
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -14,7 +18,22 @@
     border-radius: 9px;
     color: #ffffff;
     box-shadow:10px 10px 20px 2px #b72780;
+   
+    -webkit-animation: blink 1.5s linear infinite;
+    -moz-animation: blink 1.5s linear infinite;
+    -ms-animation: blink 1.5s linear infinite;
+    -o-animation: blink 1.5s linear infinite;
+    animation: blink 1.5s linear infinite;
   } 
+
+
+  @keyframes blink {
+    0% { box-shadow: 0 0 55px #b72780; }
+    50% { box-shadow: none; }
+    100% { box-shadow: 0 0 55px #b72780; }
+  }
+  
+  
 .heading{
     margin-left: 110px;
     padding-bottom: 10px;
