@@ -6,7 +6,7 @@ body{
 .container{
     padding:10px;
     max-width: 500px;
-    margin: 90px auto;
+    margin: 80px auto;
     border: 3px rgba(203, 202, 202, 0.915) solid;
     border-style: ridge;
     background-image: linear-gradient(to top,  #b8235a 29%, #801357 51%, #3d1635 74%, #1c1a27 100%);
