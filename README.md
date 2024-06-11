@@ -69,11 +69,11 @@ Welcome to my first full stack project! This project features a student registra
     ```bash
     npm start
     ```
-    The app should now be running on [http://localhost:3000](http://localhost:3000).
+    The app should now be running on [http://localhost:3000](http://localhost:3019).
 
 ## 📄 Usage
 
-1. **Open the registration form** in your browser at [http://localhost:3000](http://localhost:3000).
+1. **Open the registration form** in your browser at [http://localhost:3000](http://localhost:3019).
 2. **Fill out the form** with student details.
 3. **Submit the form** to store the data in the MongoDB database.
 
