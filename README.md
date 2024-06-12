@@ -94,9 +94,7 @@ I would love to hear your feedback! If you have any suggestions or find any issu
 
 - Thanks to the open-source community for providing such valuable resources and tools.
 
-## 📄 License
 
-This project is licensed under the MIT License.
 
 ---
 
